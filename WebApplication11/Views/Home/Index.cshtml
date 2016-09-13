@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Master Details entry form</h2>
+<div class="container">
+    <div class="master">
+        <h4>Order Header</h4>
+        <table class="table table-responsive">
+            <tr>
+                <td>Order No</td>
+                <td>
+                    <input type="text" id="orderNo" class="form-control" />
+                    <span class="error">Order No is required</span>
+                </td>            
+                <td>Order Date</td>
+                <td>
+                    <input type="date" id="orderDate" class="form-control" />
+                    <span class="error">Order Date is required</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Customer</td>
+                <td>
+                    <select id="customers" class="form-control"></select>
+                    <span class="error">Customer is required</span>
+                </td>
+                <td>Description</td>
+                <td>
+                    <textarea id="description" class="form-control"></textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="details">
+        <h4>Order Details</h4>        
+        <table style="width:100%" class="table table-responsive">
+            <tr>
+                <td>Item Name</td>
+                <td>Quantity</td>
+                <td>Price</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="products" class="form-control"></select>
+                    <span id="productError" class="error">Item Name is required</span>
+                </td>
+                <td>
+                    <input type="text" id="quantity" class="form-control" />
+                    <span class="error">Quantity is required</span>
+                </td>
+                <td>
+                    <input type="text" id="rate" class="form-control" />
+                    <span class="error">Price is required</span>
+                </td>
+                <td>
+                    <input type="button" id="add" value="Add" class="btn btn-success" />
+                </td>
+            </tr>
+        </table>
+        <div id="orderItems" class="tablecontainer">
+            <table id="orderDetailsTbl" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th style="display:none">Item ID</th>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Line Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div style="padding:10px 0px; text-align:right">
+            <input id="submit" type="button" value="Save Order" style="padding:10px 20px" class="btn btn-primary" />
+        </div>        
+    </div>
+</div>
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+
+@section Scripts {
+    <script src="~/Scripts/jquery-3.1.0.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/myScript.js"></script>
+    <script>
+        $(function () {
+            $('#orderDate').datepicker();
+        });        
+    </script>
+}
+
+<style>
+    span.error {
+        display:block;
+        visibility:hidden;
+        color:red;
+        font-size:90%
+    }
+</style>

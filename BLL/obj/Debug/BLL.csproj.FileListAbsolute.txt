@@ -1,0 +1,11 @@
+c:\Projects\WebApplication11\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\Projects\WebApplication11\BLL\bin\Debug\BLL.dll
+c:\Projects\WebApplication11\BLL\bin\Debug\BLL.pdb
+c:\Projects\WebApplication11\BLL\bin\Debug\DLL.dll
+c:\Projects\WebApplication11\BLL\bin\Debug\EntityFramework.dll
+c:\Projects\WebApplication11\BLL\bin\Debug\Model.dll
+c:\Projects\WebApplication11\BLL\bin\Debug\DLL.pdb
+c:\Projects\WebApplication11\BLL\bin\Debug\EntityFramework.xml
+c:\Projects\WebApplication11\BLL\bin\Debug\Model.pdb
+c:\Projects\WebApplication11\BLL\obj\Debug\BLL.dll
+c:\Projects\WebApplication11\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,12 @@
+c:\Projects\WebApplication11\DLL\obj\Debug\DLL.csprojResolveAssemblyReference.cache
+c:\Projects\WebApplication11\DLL\bin\Debug\DLL.dll.config
+c:\Projects\WebApplication11\DLL\bin\Debug\DLL.dll
+c:\Projects\WebApplication11\DLL\bin\Debug\DLL.pdb
+c:\Projects\WebApplication11\DLL\bin\Debug\EntityFramework.dll
+c:\Projects\WebApplication11\DLL\bin\Debug\EntityFramework.SqlServer.dll
+c:\Projects\WebApplication11\DLL\bin\Debug\Model.dll
+c:\Projects\WebApplication11\DLL\bin\Debug\Model.pdb
+c:\Projects\WebApplication11\DLL\bin\Debug\EntityFramework.xml
+c:\Projects\WebApplication11\DLL\bin\Debug\EntityFramework.SqlServer.xml
+c:\Projects\WebApplication11\DLL\obj\Debug\DLL.dll
+c:\Projects\WebApplication11\DLL\obj\Debug\DLL.pdb
